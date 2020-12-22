@@ -1,0 +1,205 @@
+@import '../../../css/common.scss';
+
+$item_height: 88px;
+
+.list {
+  @include setPadding($normal_gap_bottom, 100px);
+  flex: 1;
+}
+.order-title-close {
+      align-items: center;
+      justify-content: center;
+      flex-direction:row;
+      width: 100px;
+      margin-left:-100px;
+      height: 88px;
+  }
+.order-title-text {
+      color: #ffffff;
+      font-size: 75px;
+      font-weight: 100;
+  }
+.body-list {
+  flex-direction: column;
+  background-color: #F5F6F9;
+  width: 2220px;
+  @include setBorderTop(#ffffff, 24px)
+}
+
+.item-wrap {
+  width: 2220px;
+  flex-direction: row;
+  align-items: center;
+  height: $item_height;
+  flex: 1;
+}
+
+.row {
+  flex-direction: row;
+  justify-content: center;
+}
+
+.item {
+  flex: 1;
+  text-align: center;
+  font-size: $font_normal;
+  color: $color_nav;
+}
+.icon-add {
+  margin-left: 23px;
+  width: 50px;
+  height: 50px;
+}
+.icon-minus {
+  margin-left: 23px;
+  width: 50px;
+  height: 50px;
+}
+.detail-item {
+  height: $item_height;
+  align-items: center;
+}
+
+.detail {
+  font-size: $font_normal;
+  color: $color_back;
+  padding-right: $normal_text_gap;
+}
+
+.detail-text {
+  font-size: $font_normal;
+  width: 250px;
+  color: $color_back;
+  padding-right: $normal_text_gap;
+  @include setPadding($normal_gap_left);
+}
+.detail-check {
+  padding-left: 120px;
+  opacity: 1;
+}
+.text-load {
+  opacity: 0.4;
+}
+
+/** 工商信息下列表 **/
+.business-list-wrap {
+  flex-direction: column;
+  padding-left: 150px;
+  padding-right: 20px;
+  background-color: #FAFAFC;
+}
+.business-item-wrap {
+  width: 2000px;
+}
+
+.flex-start {
+  flex: 2;
+  justify-content: flex-start;
+}
+.flex01 {
+  flex: 0.4;
+}
+
+.summary {
+  flex: 2;
+}
+.summary-item {
+  padding-left: 56px;
+}
+.flex5 {
+  flex: 5;
+}
+
+.business-item-label {
+  font-size: $font_normal;
+  color: $color_enclosure;
+  padding-right: $normal_gap_column;
+}
+
+.business-item-value {
+  font-size: $font_normal;
+  color: $color_nav;
+}
+
+/** 添加工商信息样式 **/
+.business-title-wrap {
+  flex-direction: row;
+  align-items: center;
+  background-color: $color_back;
+  justify-content: center;
+  height: 88px;
+}
+
+.business-title {
+  font-size: $font_head;
+  color: $color_white;
+  width:1900px;
+  text-align:center;
+  lines: 1;
+}
+
+.business-content {
+  padding-top: 20px;
+}
+
+.business-base-info {
+  flex-direction: row;
+  align-items: center;
+  padding-left: 200px;
+  padding-right: 200px;
+  height: 100px;
+}
+
+.label {
+  color: $color_enclosure;
+  font-size: $font_nav;
+}
+
+.value {
+  font-size: $font_nav;
+}
+
+.input {
+  height: 80px;
+  line-height: 76px;
+  border-width: $condition-border;
+  border-color: $color_weak;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-right: 10px;
+  width: 900px;
+}
+.btn {
+  width: 360px;
+  text-align: center;
+  height: 88px;
+  line-height: 88px;
+  margin-left: 150px;
+  margin-right: 150px;
+  font-size: $font_head;
+}
+
+.btn-wrap {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.btn-cancel {
+  border-width: $condition-border;
+  border-color: $color_back;
+  background-color: $color_white;
+  color: $color_back;
+  line-height: 84px;
+}
+
+.btn-sure {
+  background-color: $color_back;
+  color: $color_white;
+}
+
+.table-wrap {
+  @include setPadding($normal_gap_bottom, $normal_gap_left);
+}

@@ -1,0 +1,1 @@
+include ':app', ':hmsagents', ":tigerdb", ":picture_library", ":ucrop" ,":weex_sdk",":weex_analyzer"

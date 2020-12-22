@@ -1,0 +1,95 @@
+ .header-row {
+    width: 2520px;
+    height: 96px;
+  }
+  .mark-title {
+    color: #21363D;
+    font-size: 34px;
+  }
+  .title-text {
+    font-size:34px;
+    color: #21363D;
+    width: 504px;
+    height: 72px;
+    line-height: 72px;
+    text-align: right;
+  }
+  .title-mark {
+    color: red;
+    font-size: 34px;
+  }
+  .read-content {
+    font-size: 34px;
+    color:#030606;
+  }
+  .pick-content, .input-content, .read-content {
+    width: 520px;
+    height: 72px;
+    line-height: 72px;
+    margin-left: 20px;
+    padding-left: 16px;
+    font-size: 34px;
+  }
+  .input-content {
+    border-width: 2px;
+    border-color: #CACCCF;
+    border-radius: 4px;
+  }
+  .fundplusbtn {
+    height: 750px;
+  }
+  .plusbtn {
+    margin-top: 20px;
+    flex-direction: row;
+    width: 3000px;
+  }
+  .btn-add-title{
+    font-size: 38px;
+  }
+  .btn-add-wrap{
+    width: 240px;
+    height:60px;
+    font-size: 30px;
+    margin-left: 2004px;
+  }
+  .btn-add-text {
+    font-size: 34px;
+    color: $color_back;
+  }
+  .message-title{
+    font-size: 38px;
+    width: 3000px;
+    height:88px;
+    line-height: 88px;
+  }
+  .full-item{
+    width: 1030px;
+  }
+  .fundcontent {
+     height: 382px;
+  }
+  .content {
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .mark-row{
+    flex-direction: row;
+    width: 504px;
+    justify-content: flex-end;
+  }
+  .row {
+    width: 2000px;
+    flex-direction: row;
+    align-items: center;
+    height: $input_label_height;
+  }
+   .item {
+    width: 1030px;
+    flex-direction: row;
+    align-items: center;
+  }
+  .loan-div{
+    flex-direction: row;
+    justify-content: flex-end;
+  }

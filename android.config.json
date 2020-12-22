@@ -1,0 +1,6 @@
+{
+  "AppName":"interviewApp",
+  "AppId":"com.ddjf.interview",
+  "SplashText":"Hello\n",
+  "WeexBundle":"index.js"
+}

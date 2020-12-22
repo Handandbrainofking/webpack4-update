@@ -1,0 +1,17 @@
+/**
+ * use [./gradlew clean install bintrayUpload] to publish(bintray)
+ * */
+
+ext {
+    projectName = 'maven'
+    projectDesc = 'weex analyzer'
+
+    siteUrl = 'https://github.com/weexteam/weex-analyzer-android'
+    gitUrl = 'git@github.com:weexteam/weex-analyzer-android.git'
+
+    mavenGroup = 'com.taobao.android'
+    mavenArtifactId = 'weex_analyzer'
+    mavenVersion = '0.1.0.9'
+
+    orgName = 'rowandjj'
+}

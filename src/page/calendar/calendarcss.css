@@ -1,0 +1,665 @@
+/* // TODO 代码量较多，是不是所有的日历都需要  */
+.calendar-background {
+    width: 2260px;
+    height: 1600px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(244, 246, 250)
+}
+
+.calendar-header {
+    width: 2200px;
+    height: 100px;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    align-items: center;
+}
+
+
+.pre-next-month-text {
+    font-size: 32px;
+    color: rgb(79, 176, 179);
+    text-align: center;
+}
+
+.calendar-header-text {
+    font-size: 52px;
+    color: #21363D;
+}
+
+.calendar-margin {
+    margin-left: 1347px;
+}
+
+.kongxin-calendar {
+    width: 160px;
+    height: 48px;
+    background-color: #FFFFFF;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(98, 191, 194);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.kongxin-calendar-text {
+    font-size: 30px;
+    color: rgb(98, 191, 194);
+}
+
+.shixin-calendar {
+    width: 160px;
+    height: 48px;
+    background-color: rgb(98, 191, 194);
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(98, 191, 194);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.shixin-calendar-text {
+    font-size: 30px;
+    color: #FFFFFF;
+}
+
+.calendar-content {
+    width: 2220px;
+    height: 1460px;
+    background-color: #FFFFFF;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.calendar-weekday {
+    width: 2080px;
+    height: 100px;
+    border-width: 1px;
+    border-color: #EBEBEB;
+    margin-left: 100px;
+    background-color: #FCFCFC;
+    justify-content: space-around;
+    align-items: center;
+}
+.month-calendar-weekday {
+    width: 2180px;
+    height: 100px;
+    border-width: 1px;
+    border-color: #EBEBEB;
+    background-color: #FCFCFC;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.weekday-text {
+    color: rgb(118, 118, 118);
+    font-size: 38px;
+    text-align: center;
+}
+
+.weekday-text-small {
+    color: rgb(118, 118, 118);
+    font-size: 32px;
+    text-align: center;
+}
+
+.calendar-week {
+    width: 2180px;
+    height: 272px;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.calendar-day {
+    width: 311px;
+    height: 272px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(245, 245, 245);
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.calendar-weekdate {
+    margin-bottom: 10px;
+    align-items: flex-end;
+}
+
+.weekdate-text {
+    font-size: 28px;
+    color: #677475;
+    text-align: right;
+}
+
+.calendar-todo {
+    align-items: center;
+    margin-bottom: 18px;
+    height: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.todo-time {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.margin-week {
+    margin-right: 100px;
+}
+
+.margin24 {
+    margin-right: 24px;
+}
+
+.todo-time-text {
+    font-size: 32px;
+    color: rgb(118, 118, 118);
+}
+
+.week-time-place {
+    align-items: center;
+    margin-bottom: 4px;
+}
+
+.week-todo-time-text {
+    font-size: 34px;
+}
+
+
+.week-todo-place-text {
+    font-size: 26px;
+    color: rgb(118, 118, 118);
+}
+
+.more-text {
+    font-size: 26px;
+    color: #00D2D3;
+}
+
+.more {
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.yellow-border {
+    border-radius: 5px;
+    border-left-width: 4px;
+    border-left-color: #9368E7;
+    border-left-style: solid;
+    background-color: #F9F7FE;
+}
+
+.yellow-border-done{
+    border-left-color: #9368E7;
+    opacity: 0.4;
+}
+
+.red-border-done {
+    border-radius: 5px;
+    border-left-width: 4px;
+    border-left-color: #EE5253;
+    border-left-style: solid;
+    background-color: #FBF0F0;
+}
+
+.green-border {
+    border-width: 4px;
+    border-style: solid;
+    border-left-color: rgb(89, 177, 147);
+    border-right-color: rgb(247, 247, 247);
+    border-top-color: rgb(247, 247, 247);
+    border-bottom-color: rgb(247, 247, 247);
+}
+
+.popup-box {
+    height: 1600px;
+    background-color: #FFFFFF;
+    padding-top: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.popup-title {
+    width: 740px;
+    height: 80px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+}
+
+.popup-text {
+    font-size: 52px;
+    color: #21363D;
+}
+
+.popup-todolist {
+    height: 80px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.popup-time {
+    margin-left: 24px;
+    margin-right: 30px;
+}
+.popup-time-text {
+    font-size: 38px;
+    color: #6525E4;
+}
+
+.popup-thing {
+    width: 300px;
+}
+
+.popup-thing-text {
+    font-size: 34px;
+    color: #6525E4;
+}
+
+.popup-name {
+    margin-right: 24px;
+}
+
+.popup-name-text {
+    font-size: 34px;
+    color: #6525E4;
+}
+
+.week-has-delete {
+    opacity:0.3;
+}
+
+.is-today {
+    width: 48px;
+    height: 48px;
+    background-color: #EB8A8A;
+    color: #FFFFFF;
+    border-radius: 24px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.not-today {
+    width: 48px;
+    height: 48px;
+    background-color: #FFFFFF;
+    color: #FFFFFF;
+    border-radius: 24px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.week-is-today {
+    width: 48px;
+    height: 48px;
+    background-color: #EB8A8A;
+    color: #FFFFFF;
+    border-radius: 24px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.week-not-today {
+    width: 48px;
+    height: 48px;
+    color: #677475;
+    border-radius: 24px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.today-text {
+    font-size: 27px;
+    color: #FFFFFF;
+}
+
+.week-today-text {
+    font-size: 32px;
+    color: #FFFFFF;
+}
+
+.week-not-today-text {
+    font-size: 32px;
+    color: #677475;
+}
+
+.calendar-week-todo {
+    width: 2180px;
+    height: 1360px;
+}
+
+.week-todo-high-bar {
+    width: 311.33px;
+    height: 1360px;
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    align-items: center;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(245, 245, 245);
+}
+
+.week-day-todo {
+    margin-bottom: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.week-thing-text {
+    font-size: 30px;
+}
+
+.week-product-text {
+    font-size: 26px;
+}
+
+.week-person-text {
+    font-size: 26px;
+}
+
+.center {
+    align-items: center;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.flex1 {
+    flex: 1;
+}
+
+.margin-top-4 {
+    margin-top: 4px;
+}
+
+.fontweight3 {
+    font-weight: 300;
+}
+
+.todoinfo-background {
+    width: 2220px;
+    height: 1560px;
+    background-color: #FFFFFF;
+    border-radius: 4px;
+}
+
+.todoinfo-return {
+    width: 2220px;
+    height: 100px;
+    border-radius: 4px;
+    align-items: center;
+}
+
+.return-text {
+    font-size: 38px;
+    color: #02B3B4;
+}
+
+.black {
+    width: 2220px;
+    height: 1px;
+    background-color: #000000;
+}
+
+.todoinfo-content {
+    width: 2220px;
+    height: 1500px;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    padding: 40px;
+}
+
+.todoinfo-jbxx-small {
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.info-each {
+    margin-bottom: 20px;
+}
+
+.black-dashed {
+    width: 2140px;
+    height: 1px;
+    border-width: 1px;
+    border-bottom-color: #EBEBEB;
+    border-top-color: #FFFFFF;
+    border-left-color: #FFFFFF;
+    border-right-color: #FFFFFF;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.todoinfo-yyxx {
+    background-color: #FFFFFF;
+    border-radius: 4px;
+}
+
+.jbyy-text {
+    font-size: 38px;
+    color: #030606;
+}
+
+.back{
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+    margin-right: 8px;
+    align-items: center;
+    justify-content: center;
+}
+
+.pre-text {
+    font-size: 34px;
+    color: #21363D;
+    text-align: right;
+}
+
+.back-text {
+    font-size: 34px;
+    color: #030606;
+}
+
+.todoinfo-yyjd {
+    margin-top: 20px;
+    height: 80px;
+    align-items: center;
+}
+
+.yyjd {
+    width: 260px;
+    height: 80px;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+.weight {
+    font-weight: 400;
+}
+
+.select {
+    width: 520px;
+    height: 72px;
+    font-size: 34px;
+    color: #21363D;
+    border-width: 2px;
+    border-color: #CACCCF;
+    border-radius: 4px;
+}
+
+.split {
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #677475;
+}
+
+.mark-tip-wrap {
+    padding-right: 610px;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.mark-tip {
+    color: #02B3B4;
+    font-size: 26px;
+}
+
+.mark {
+    width: 1260px;
+    height: 320px;
+    border-width: 2px;
+    border-color: #CACCCF;
+    font-size: 34px;
+    border-radius: 4px;
+    padding: 19px;
+}
+
+.textarea {
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.btn {
+    height: 100px;
+    margin-top: 80px;
+    align-items: center;
+}
+
+.btn-yes {
+    width: 800px;
+    height: 100px;
+    background-color: #02B3B4;
+    border-color: #02B3B4;
+    border-width: 2px;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-yes-text {
+    font-size: 34px;
+    color: #FFFFFF;
+}
+
+.todo-thing-text {
+    font-size: 30px;
+    color: #6525E4;
+}
+.has-delete {
+    text-decoration:line-through;
+    color: #6525E4;
+}
+.expired-warming{
+    color: #EE5253;
+    opacity: 1;
+}
+.between-line {
+    height: 100px;
+    border-right-width: 1px;
+    border-right-color: #EBEBEB;
+    justify-content: center;
+}
+.weekend-title-width {
+    width: 240px;
+    justify-content: center;
+}
+.weekday-title-width {
+    width: 320px;
+    justify-content: center;
+}
+.month-weekend-title-width {
+    width: 240px;
+}
+.month-weekday-title-width {
+    width: 340px;
+}
+.weekend-content-width {
+    width: 238px;
+    justify-content: center;
+}
+.weekday-content-width {
+    width: 318px;
+    justify-content: center;
+}
+.time-row {
+    flex-direction: row;
+}
+.time-day-row {
+    border-width: 1px;
+    border-color: #EBEBEB;
+}
+.time-titile {
+    flex: 1;
+    margin-top: 36px;
+    margin-right: 20px;
+    margin-bottom: 31px;
+}
+.time-text {
+    font-size: 28px;
+    color: #677475;
+}
+.time-day-todo-card {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.more-week {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-width: 2px;
+    border-radius: 4px;
+    border-color: #9368E7;
+    background-color: #F9F7FE;
+}
+.more-week-text {
+    font-size: 24px;
+    color: #9368E7;
+}
+.before-more-week {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-width: 2px;
+    border-radius: 4px;
+    border-color: #EE5253;
+    background-color: #FBF0F0;
+}
+.before-more-week-text {
+    font-size: 24px;
+    color: #EE5253;
+}
+.overflow {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    lines: 1;
+}
+.margin-right14 {
+    margin-right: 14px;
+}
+.width120 {
+    width: 120px;
+}
+.expired-text {
+    color: #EE5253;
+}

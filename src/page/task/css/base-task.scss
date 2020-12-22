@@ -1,0 +1,26 @@
+@import 'mark';
+
+.container-wrap {
+  flex-direction: column;
+  padding-left: $normal_gap_left;
+  padding-right: $normal_gap_left;
+  height: 1428px;
+}
+
+.scroll-wrap {
+  flex: 1;
+}
+
+.wrapper {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.item {
+  width: 1200px;
+}
+
+.btn-wrap {
+  padding-top: 20px;
+  padding-bottom: 40px;
+}

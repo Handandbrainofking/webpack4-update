@@ -1,0 +1,19 @@
+{
+  "presets": [
+    "es2015",
+    "stage-2"
+  ],
+  "plugins": [
+    "transform-vue-jsx",
+    "transform-runtime",
+    "transform-es2015-modules-commonjs",
+    "transform-async-to-generator",
+    ["import",
+      {
+        "libraryName": "@ddjf/ddpad",
+        "libraryDirectory": "packages",
+        "style": false
+      }
+    ]
+  ]
+}

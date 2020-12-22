@@ -1,0 +1,1 @@
+cnpm install --save-dev babel-jest@21 jest@24 jest-serializer-vue@2.0.2 vue-jest@3.0.2 @vue/test-utils@1.0.0-beta.28 babel-preset-env@1.7.0 babel-preset-stage-2@6.24.1 babel-plugin-transform-async-to-generator@6.24.1 babel-plugin-transform-es2015-modules-commonjs@6.26.2

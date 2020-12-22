@@ -1,0 +1,79 @@
+@import '../../css/common';
+
+.input-box {
+  flex-direction: row;
+  align-items: center;
+  // padding-top: $normal_gap_bottom;
+  // padding-bottom: $normal_gap_bottom;
+  height: $input_label_height;
+
+}
+
+.label {
+  color: $color_nav;
+  font-size: $font_nav;
+  text-align: right;
+}
+
+.require {
+  color: #FF0000;
+  font-size: $font_nav;
+}
+
+.input {
+  width: 520px;
+  background-color: transparent;
+  color: $color_content;
+  border-width: $condition-border + px;
+  border-color: $color_weak;
+  border-radius: 4px;
+  padding-left: $normal_gap_left;
+  padding-right: $normal_gap_left;
+  font-size: $font_nav;
+  margin-left: $normal_gap_left;
+}
+
+.input-no-border {
+  border-color: transparent;
+}
+
+.input-active {
+  color: #FF0000;
+}
+
+.label-read {
+  color: $color_enclosure;
+  font-size: $font_normal;
+  text-align: left;
+  line-height: 40px;
+}
+
+.content {
+  color: $color_nav;
+  font-size: $font_normal;
+  text-align: left;
+  line-height: 40px;
+}
+
+.only-read-label-read {
+  color: $color_nav;
+  font-size: $font_nav;
+}
+
+.only-read-content {
+  color: #030606;
+  font-size: $font_nav;
+  text-align: left;
+}
+
+.margin40 {
+  margin-right: 40px;
+}
+
+.margin20 {
+  margin-right: 20px;
+}
+
+.margin10 {
+  margin-right: 10px;
+}

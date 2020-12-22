@@ -1,0 +1,25 @@
+[
+    {
+        "auditor": "70000000061336",
+        "auditorName": "苗延伟",
+        "completeTime": 1546503775000,
+        "createTime": 1546503774000,
+        "durMs": 1190,
+        "files": "",
+        "formName": "",
+        "id": "10000073468211",
+        "interpose": 0,
+        "opinion": "跳过第一个任务节点",
+        "procDefId": "bizApplyFlowIns_v2_5:2:20000003760041",
+        "procInstId": "10000073468111",
+        "qualfiedNames": "苗延伟",
+        "qualfieds": [{"id":"70000000061336","type":"user","name":"苗延伟"}],
+        "status": "skip",
+        "statusVal": "跳过执行",
+        "supInstId": "0",
+        "supportMobile": "1",
+        "taskId": "10000073468209",
+        "taskKey": "ApplyOrder",
+        "taskName": "业务申请"
+    }
+]

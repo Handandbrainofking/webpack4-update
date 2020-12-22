@@ -1,0 +1,9 @@
+{
+   "AppName":"interviewApp",
+   "Version":"0.1",
+   "BuildVersion":"0.1.0",
+   "AppId":"com.ddjf.interview",
+   "CodeSign":"B132EA61EDD53A7729F09F012B790E7AF7DC5394",
+   "Profile":"faf3e095-54e6-4af9-ad0c-7188437c3fcc",
+   "WeexBundle":"index.js"
+}

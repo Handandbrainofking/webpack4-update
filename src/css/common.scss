@@ -1,0 +1,160 @@
+@charset "UTF-8";
+/**
+* common
+*/
+
+$font_normal: 30px;
+$font_nav: 34px;
+$font_head: 38px;
+$font_title: 52px;
+$font_list: 28px;
+$font_small: 26px;
+$font_extra_small: 20px;
+$font_larger: 42px;
+$font_bold: 700;
+
+$color_import: rgb(14, 13, 10);
+$color_weak_import: #FECA57;
+$color_back: #02B3B4;
+$color_nav:  #21363D;
+$color_enclosure: #677475;
+$color_white: #ffffff;
+$color_content: #030606;
+$color_link: #2980B9;
+$color_weak: #CACCCF;
+$color_light_focus: #E5F7F7;
+$color_list_border: #DDEDF8;
+$color_list_title: #E8F3FB;
+
+$condition_height: 60;
+$condition-border: 1;
+$condition-main: $condition_height - $condition-border - $condition-border;
+
+$biggest_gap_left: 80px;
+$bigger_gap_left: 60px;
+$normal_gap_line: 7px;
+$weak_big_gap_left: 25px;
+$normal_gap_left: 20px;
+$small_gap_left: 15px;
+$big_gap_left: 30px;
+$normal_gap_root_column: 40px;
+$normal_gap_bottom: 20px;
+$normal_gap_column: 18px;
+$normal_text_gap: 5px;
+$normal_image_gap: 10px;
+
+$btn_color: rgba(22, 155, 213, 1);
+$btn_focus_color: #0099FF;
+$btn_height: 60;
+$btn_line_height: $btn_height - $condition-border - $condition-border;
+$btn_gap_column: 60px;
+$btn_width: 200px;
+$btn_font: 30px;
+$btn_gap_top: 9px;
+$btn_gap_left: 28px;
+$btn_bg_default: #fff;
+$btn_border_focus: #02B3B4;
+
+$input_label_height: 96px;
+
+/**
+ * 首页变量
+ */
+$head_height: 20px;     // 头部高度
+$head_bg_color: rgba(0, 0, 0, .7);
+$nav_bg_color: #FFFDFD;
+$window_width: 2560;
+$window_height: 1600;
+$nav_width: 300;
+$main_width: $window_width - $nav_width;
+
+
+// 消息
+$message_height: 80px;
+$message_bg_color: #ffffff;
+
+// 资料上传详情
+$back_head_height: 120;
+$data_detail_left: 400;
+$data_detail_right: $window_width - $data_detail_left;
+
+//账户测试、查档色块
+$color_card_title: rgb(245, 246, 249);
+$color_card_content: rgb(250, 250, 252);
+
+// 设置间距
+@mixin setPadding($padTop, $padRight: $padTop, $padBottom: $padTop, $padLeft: $padRight) {
+  padding-left: $padLeft;
+  padding-right: $padRight;
+  padding-top: $padTop;
+  padding-bottom: $padBottom;
+}
+
+@mixin setPaddingH($padLeft: $normal_gap_left, $padRight: $padLeft) {
+  padding-left: $padLeft;
+  padding-right: $padRight;
+}
+
+@mixin setPaddingV($padTop: $normal_gap_bottom, $padBottom: $padTop) {
+  padding-top: $padTop;
+  padding-bottom: $padBottom;
+}
+
+@mixin setMargin($marginTop, $marginRight: $marginTop, $marginBottom: $marginTop, $marginLeft: $marginRight) {
+  margin-left: $marginLeft;
+  margin-right: $marginRight;
+  margin-top: $marginTop;
+  margin-bottom: $marginBottom;
+}
+
+@mixin setMarginH($padLeft: $normal_gap_left, $padRight: $padLeft) {
+  margin-left: $padLeft;
+  margin-right: $padRight;
+}
+
+@mixin setMarginV($padTop: $normal_gap_bottom, $padBottom: $padTop) {
+  margin-top: $padTop;
+  margin-bottom: $padBottom;
+}
+
+@mixin setWindowWH() {
+  width: $window_width + px;
+  height: $window_height + px;
+}
+
+// 设置边框
+@mixin setBorder($color: $color_weak, $width: $condition-border + px, $style: solid){
+  border-width:$width;
+  border-style: $style;
+  border-color: $color;
+}
+
+@mixin setBorderTop($color: $color_weak, $width: $condition-border + px, $style: solid){
+  border-top-width:$width;
+  border-top-style: $style;
+  border-top-color: $color;
+}
+
+@mixin setBorderBottom($color: $color_weak, $width: $condition-border + px, $style: solid){
+  border-bottom-width:$width;
+  border-bottom-style: $style;
+  border-bottom-color: $color;
+}
+
+@mixin setBorderLeft($color: $color_weak, $width: $condition-border + px, $style: solid){
+  border-left-width:$width;
+  border-left-style: $style;
+  border-left-color: $color;
+}
+
+@mixin setBorderRight($color: $color_weak, $width: $condition-border + px, $style: solid){
+  border-right-width:$width;
+  border-right-style: $style;
+  border-right-color: $color;
+}
+
+@mixin setFontSize($size: $font_normal) {
+  font-size: $size;
+  line-height: $size;
+}
+

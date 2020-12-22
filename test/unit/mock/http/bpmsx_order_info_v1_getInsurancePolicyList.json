@@ -1,0 +1,15 @@
+{
+  "insurancePolicyVOList": [
+    {
+      "applyNo": "ZZS0120190103017",
+      "id": "20000045357874",
+      "insuranceAmount": 750000,
+      "policyEnd": 1566057600000,
+      "policyName": "房屋抵押履约保障",
+      "policyNo": "ZZS0120190103017",
+      "policyStart": 1550592000000,
+      "premiumAmount": 1125,
+      "premiumRate": 0.6
+    }
+  ]
+}

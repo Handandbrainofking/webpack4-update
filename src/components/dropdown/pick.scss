@@ -1,0 +1,32 @@
+/**
+ * function: 提取pick相关的公共样式
+ * author: wq
+ * update: 2018-5-18
+ */
+@import '../../css/common.scss';
+
+.pick-box {
+  flex-direction: row;
+  border-right-width: $condition-border + px;
+  border-right-color: #CACCCF;
+  padding-left: $normal_gap_left;
+  padding-right: $normal_gap_left;
+  align-items: center;
+  border-radius: 4px;
+}
+
+.text {
+  font-size: 28px;
+  color: $color_nav;
+  background-color: transparent;
+  flex: 1;
+  lines: 1;
+}
+
+.absolute {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}

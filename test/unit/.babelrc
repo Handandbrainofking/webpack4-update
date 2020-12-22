@@ -1,0 +1,14 @@
+{
+  "presets": [
+    ["env",
+      {
+        "modules": false,
+        "targets": {
+          "node": "current"
+        }
+      }
+    ],
+    "stage-2"
+  ],
+  "plugins": ["transform-es2015-modules-commonjs", "transform-async-to-generator"]
+}

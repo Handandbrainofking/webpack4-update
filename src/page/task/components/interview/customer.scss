@@ -1,0 +1,79 @@
+@import '../../../../css/common.scss';
+
+$add_button_height: 68;
+
+.container-wrap {
+  flex-direction: column;
+  padding-left: $normal_gap_left;
+  padding-right: $normal_gap_left;
+  height: 1160px;
+}
+
+.scroll-wrap {
+  flex: 1;
+}
+
+.content-wrap {
+  height: 910px;
+  border-width: $condition-border + px;
+  border-color: $color_list_border;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.custom-info-head {
+  background-color: $color_list_title;
+  padding-left: $normal_gap_left;
+  padding-right: $normal_gap_left;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+}
+
+.custom-info-head-submit {
+  padding-left: $normal_gap_left;
+  padding-right: $normal_gap_left;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+}
+
+.head-title {
+  flex: 1;
+  font-size: $font_normal;
+  color: $color_nav;
+}
+
+.btn-delete-wrap {
+  height: 80px;
+  width: 80px;
+  align-items: center;
+  justify-content: center;
+}
+.btn-add-title{
+  height: $add_button_height + px;
+  line-height: $add_button_height + px;
+  margin-top: $normal_gap_bottom;
+}
+.btn-add-wrap {
+  width: 400px;
+  height: $add_button_height + px;
+  background-color: $color_light_focus;
+  border-width: $condition-border + px;
+  border-color: $color_back;
+  margin-top: $normal_gap_bottom;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  
+}
+
+.btn-add {
+  color: $color_back;
+  font-size: $font_nav;
+  padding-left: $normal_text_gap;
+  line-height: $font_nav;
+}

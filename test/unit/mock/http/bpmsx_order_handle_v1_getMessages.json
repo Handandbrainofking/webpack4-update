@@ -1,0 +1,115 @@
+{
+  "endRow": 11,
+  "firstPage": 1,
+  "hasNextPage": true,
+  "hasPreviousPage": false,
+  "isFirstPage": true,
+  "isLastPage": false,
+  "lastPage": 2,
+  "list": [
+    {
+      "applyNo": "FZS0120190301001",
+      "deleteFlag": "0",
+      "id": "10000028640499",
+      "mode": "PAD",
+      "msgContent": "http://10.11.0.163:8080/x5/system/notice/noticeDetail?id=20000046825269",
+      "sendTime": 1541007114000,
+      "tplKey": "1"
+    },
+    {
+      "applyNo": "FZS0120190301001",
+      "deleteFlag": "0",
+      "id": "10000028642014",
+      "mode": "PAD",
+      "msgContent": "您好！11月01日 02:26，胡玉倩已将创可贴的客户资料提交至中国农业银行股份有限公司广州梅花园支行。",
+      "sendTime": 1509474410000
+    },
+    {
+      "applyNo": "FZS0120190301001",
+      "deleteFlag": "0",
+      "id": "10000028641977",
+      "mode": "PAD",
+      "msgContent": "您好！11月01日 02:25，黄慧敏已核实1111客户在中国工商银行股份有限公司佛山容桂支行申请的按揭贷款已放款，贷款金额100,000元；公积金贷款金额0元；共计贷款金额100,000元。",
+      "sendTime": 1509474307000
+    },
+    {
+      "applyNo": "FZS0120190301001",
+      "deleteFlag": "0",
+      "id": "10000028641749",
+      "mode": "PAD",
+      "msgContent": "mobike客户，风险审批通过！",
+      "sendTime": 1509473706000
+    },
+    {
+      "applyNo": "FZS0120190301001",
+      "deleteFlag": "0",
+      "id": "10000028641507",
+      "mode": "PAD",
+      "msgContent": "您好！11月01日 02:13，区碧莹已将1111的客户资料提交至中国工商银行股份有限公司佛山容桂支行。",
+      "sendTime": 1509473580000
+    },
+    {
+      "applyNo": "FZS0120190301001",
+      "deleteFlag": "0",
+      "id": "10000028641349",
+      "mode": "PAD",
+      "msgContent": "您好！11月01日 02:02，区碧莹已核实景胃客户在申请的按揭贷款已放款，贷款金额0元；公积金贷款金额900,000元；共计贷款金额900,000元。",
+      "sendTime": 1509472954000
+    },
+    {
+      "applyNo": "FZS0120190301001",
+      "deleteFlag": "0",
+      "id": "10000028641346",
+      "mode": "PAD",
+      "msgContent": "您好！11月01日 02:02，区碧莹已为景胃客户办理抵押出件。",
+      "sendTime": 1509472940000
+    },
+    {
+      "applyNo": "FZS0120190301001",
+      "deleteFlag": "0",
+      "id": "10000028641345",
+      "mode": "PAD",
+      "msgContent": "您好！11月01日 02:02，区碧莹已为景胃客户客户办理抵押。",
+      "sendTime": 1509472934000
+    },
+    {
+      "applyNo": "FZS0120190301001",
+      "deleteFlag": "0",
+      "id": "10000028641344",
+      "mode": "PAD",
+      "msgContent": "您好！11月01日 02:02，区碧莹已为景胃客户办理过户出件。",
+      "sendTime": 1509472924000
+    },
+    {
+      "applyNo": "FZS0120190301001",
+      "deleteFlag": "0",
+      "id": "10000028641343",
+      "mode": "PAD",
+      "msgContent": "您好！11月01日 02:01，区碧莹已为景胃客户办理过户递件。",
+      "sendTime": 1509472916000
+    },
+    {
+      "applyNo": "FZS0120190301001",
+      "deleteFlag": "0",
+      "id": "10000028641323",
+      "mode": "PAD",
+      "msgContent": "您好！11月01日，区碧莹已核实景胃客户在银行申请的按揭贷款审批通过，贷款金额0元；公积金贷款金额900,000元；共计贷款金额900,000元。",
+      "sendTime": 1509472890000
+    }
+  ],
+  "navigateFirstPage": 1,
+  "navigateLastPage": 2,
+  "navigatePages": 8,
+  "navigatepageNums": [
+    1,
+    2
+  ],
+  "nextPage": 2,
+  "pageNum": 1,
+  "pageSize": 11,
+  "pages": 2,
+  "prePage": 0,
+  "size": 11,
+  "startRow": 1,
+  "total": 16
+}

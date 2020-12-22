@@ -1,0 +1,153 @@
+{
+  "ios": [
+    {
+      "//": "安装类型为pod",
+      "type": "pod",
+      "name": "GetuiPush",
+      "version": "0.0.1"
+    },
+    {
+      "type": "pod",
+      "name": "WeexNatMediaImage",
+      "version": "1.0.1"
+    },
+    {
+      "type": "pod",
+      "name": "WeexNatStream",
+      "version": "1.0.0"
+    },
+    {
+      "type": "pod",
+      "name": "WeexNatTransfer",
+      "version": "1.0.1"
+    },
+    {
+      "type": "pod",
+      "name": "WeexNatCamera",
+      "version": "1.0.0"
+    },
+    {
+      "type": "pod",
+      "name": "WeexNatDeviceBattery",
+      "version": "1.0.0"
+    },
+    {
+      "type": "pod",
+      "name": "WeexNatDeviceVolume",
+      "version": "1.0.0"
+    },
+    {
+      "type": "pod",
+      "name": "WeexNatDeviceScreen",
+      "version": "1.0.0"
+    },
+    {
+      "type": "pod",
+      "name": "WeexNatDeviceVibration",
+      "version": "1.0.0"
+    },
+    {
+      "type": "pod",
+      "name": "WeexNatDeviceNetwork",
+      "version": "1.0.0"
+    },
+    {
+      "type": "pod",
+      "name": "WeexNatDeviceInfo",
+      "version": "1.0.0"
+    },
+    {
+      "type": "pod",
+      "name": "WeexNatGeolocation",
+      "version": "1.0.1"
+    }
+  ],
+  "web": [],
+  "android": [
+    {
+      "//": "安装类型为maven",
+      "type": "maven",
+      "groupId": "org.weex.plugin",
+      "name": "getuipush",
+      "version": "0.0.1",
+      "dependency": "org.weex.plugin:getuipush:0.0.1"
+    },
+    {
+      "type": "maven",
+      "groupId": "com.instapp.nat",
+      "name": "weex-plugin-media-image",
+      "version": "1.0.0-alpha",
+      "dependency": "com.instapp.nat:weex-plugin-media-image:1.0.0-alpha"
+    },
+    {
+      "type": "maven",
+      "groupId": "com.instapp.nat",
+      "name": "weex-plugin-stream",
+      "version": "1.0.0-alpha",
+      "dependency": "com.instapp.nat:weex-plugin-stream:1.0.0-alpha"
+    },
+    {
+      "type": "maven",
+      "groupId": "com.instapp.nat",
+      "name": "weex-plugin-transfer",
+      "version": "1.0.0-alpha",
+      "dependency": "com.instapp.nat:weex-plugin-transfer:1.0.0-alpha"
+    },
+    {
+      "type": "maven",
+      "groupId": "com.instapp.nat",
+      "name": "weex-plugin-camera",
+      "version": "1.0.2",
+      "dependency": "com.instapp.nat:weex-plugin-camera:1.0.2"
+    },
+    {
+      "type": "maven",
+      "groupId": "com.instapp.nat",
+      "name": "weex-plugin-device-battery",
+      "version": "1.0.0-alpha",
+      "dependency": "com.instapp.nat:weex-plugin-device-battery:1.0.0-alpha"
+    },
+    {
+      "type": "maven",
+      "groupId": "com.instapp.nat",
+      "name": "weex-plugin-device-volume",
+      "version": "1.0.0-alpha",
+      "dependency": "com.instapp.nat:weex-plugin-device-volume:1.0.0-alpha"
+    },
+    {
+      "type": "maven",
+      "groupId": "com.instapp.nat",
+      "name": "weex-plugin-device-screen",
+      "version": "1.0.0-alpha.1",
+      "dependency": "com.instapp.nat:weex-plugin-device-screen:1.0.0-alpha.1"
+    },
+    {
+      "type": "maven",
+      "groupId": "com.instapp.nat",
+      "name": "weex-plugin-device-vibration",
+      "version": "1.0.0-alpha.1",
+      "dependency": "com.instapp.nat:weex-plugin-device-vibration:1.0.0-alpha.1"
+    },
+    {
+      "type": "maven",
+      "groupId": "com.instapp.nat",
+      "name": "weex-plugin-device-network",
+      "version": "1.0.0-alpha.1",
+      "dependency": "com.instapp.nat:weex-plugin-device-network:1.0.0-alpha.1"
+    },
+    {
+      "type": "maven",
+      "groupId": "com.instapp.nat",
+      "name": "weex-plugin-device-info",
+      "version": "1.0.0-alpha",
+      "dependency": "com.instapp.nat:weex-plugin-device-info:1.0.0-alpha"
+    },
+    {
+      "type": "maven",
+      "groupId": "com.instapp.nat",
+      "name": "weex-plugin-geolocation",
+      "version": "1.0.1",
+      "dependency": "com.instapp.nat:weex-plugin-geolocation:1.0.1"
+    }
+  ]
+}

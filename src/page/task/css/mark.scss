@@ -1,0 +1,38 @@
+@import '../../../css/common.scss';
+
+.mark-tip-wrap {
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.mark-tip {
+  color: $color_back;
+  font-size: $font_small;
+  padding-top: $normal_gap_bottom;
+}
+
+.area-wrap {
+  flex-direction: row;
+  align-items: flex-start;
+  height: 400px;
+}
+
+.input-label {
+  font-size: $font_nav;
+  color: $color_enclosure;
+  padding-top: $normal_gap_left;
+  padding-right: 20px;
+}
+
+.mark {
+  height: 400px;
+  line-height: 50px;
+  padding-top: $normal_gap_left;
+  padding-left: $normal_gap_left;
+  padding-right: $normal_gap_left;
+  padding-bottom: $normal_gap_left;
+  border-width: $condition-border + px;
+  border-color: #CACCCF;
+  font-size: $font_nav;
+  flex: 1;
+}

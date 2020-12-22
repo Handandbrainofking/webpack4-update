@@ -1,0 +1,215 @@
+@import '../../css/common.scss';
+
+.flex {
+  flex-direction: row;
+  align-items: center;
+}
+.column {
+  height: 1280px;
+  flex-direction: column;
+}
+.flex1 {
+  flex: 1;
+}
+.header {
+  justify-content: space-between;
+  margin-bottom: 30px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.condition-header {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.single-header {
+  height: 56px;
+  justify-content: space-between;
+}
+.bottom {
+  align-items: center;
+}
+.readinfo {
+  width: 600px;
+}
+.all-button {
+  width: 100px;
+  height: 44px;
+  border-width: 2px;
+  border-color: #677475;
+  border-radius: 4px;
+  text-align: center;
+  justify-content: space-between;
+}
+.big-titile-text {
+  color: $color_nav;
+  font-size: $font_head;
+  font-weight: 600;
+}
+.small-title-text {
+  color: $color_nav;
+  font-size: $font_nav;
+  font-weight: 600;
+}
+.middle-title-text {
+  color: $color_nav;
+  font-size: $font_normal;
+}
+.middle-grey-text {
+  color: $color_enclosure;
+  font-size: $font_normal;
+}
+.small-grey-text {
+  color: $color_enclosure;
+  font-size: $font_small;
+}
+.middle-black-text {
+  color: $color_nav;
+  font-size: $font_nav;
+  letter-spacing: 4px;
+}
+.middle-green-text {
+  color: $color_back;
+  font-size: $font_nav;
+  font-weight: 600;
+  border-bottom-width: 6px;
+  border-bottom-color: $color_back;
+}
+.per-single {
+  width: 1300px;
+  height: 226px;
+  border-width: 2px;
+  border-color: $color_list_border;
+  border-radius: 4px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.per-single-long {
+  width: 2480px;
+  height: 170px;
+  border-width: 2px;
+  border-color: $color_list_border;
+  border-radius: 4px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.choose-text {
+  font-size: $font_normal;
+  color: $color_back;
+  background-color: $color_light_focus;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 40px;
+  padding-left: 40px;
+  margin-right: 20px;
+}
+.not-choose-text {
+  color: $color_enclosure;
+  font-size: $font_normal;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 40px;
+  padding-left: 40px;
+  margin-right: 20px;
+}
+.right-div {
+  flex-direction: row-reverse;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-right: 20px;
+}
+.tab-part {
+  width: 220px;
+  height: 80px;
+  margin-right: 24px;
+  padding-right: 40px;
+  padding-left: 40px;
+  align-items: center;
+  justify-content: center;
+}
+.head-list {
+  height: 80px;
+  margin-top: 10px;
+  background-color: #F5F6F9;
+  justify-content: space-around;
+}
+.body-list {
+  height: 108px;
+  justify-content: space-around;
+}
+.single-body-color {
+  background-color: #ffffff;
+}
+.double-body-color {
+  background-color: #f9f9f9;
+}
+.head-list-text {
+  width: 350px;
+  text-align: center;
+  font-size: $font_nav;
+  color: $color_enclosure;
+}
+.body-list-text {
+  width: 350px;
+  text-align: center;
+  font-size: $font_normal;
+  color: $color_content;
+}
+.no-data-text {
+  margin-top: 10px;
+  font-size: 34px;
+  color: #677475;
+}
+.no-data-content-image {
+  align-items: center;
+}
+.pick-box {
+  flex-direction: row;
+  border-right-width: $condition-border + px;
+  border-right-color: #CACCCF;
+  padding-left: $normal_gap_left;
+  padding-right: $normal_gap_left;
+  align-items: center;
+}
+.input {
+  width: 246px;
+  background-color: transparent;
+  border-width: $condition-border + px;
+  border-radius: 4px;
+  padding-left: $normal_gap_left;
+  padding-right: $normal_gap_left;
+  font-size: $font_nav;
+  margin-left: $normal_gap_left;
+}
+.no-choose-input {
+  color: $color_content;
+  border-color: $color_weak;
+}
+.choose-input {
+  color: $color_back;
+  border-color: $color_back;
+}
+.absolute {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.text {
+  font-size: 34px;
+  background-color: transparent;
+  flex: 1;
+  lines: 1;
+}
